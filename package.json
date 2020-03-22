@@ -1,0 +1,19 @@
+{
+  "name": "supreme-enigma",
+  "version": "1.0.0",
+  "description": "my website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LohitakshTrehan/supreme-enigma.git"
+  },
+  "author": "Lohitaksh Trehan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LohitakshTrehan/supreme-enigma/issues"
+  },
+  "homepage": "https://github.com/LohitakshTrehan/supreme-enigma#readme"
+}
