@@ -2,7 +2,7 @@
   "name": "supreme-enigma",
   "version": "1.0.0",
   "description": "my website",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/LohitakshTrehan/supreme-enigma/issues"
   },
-  "homepage": "https://github.com/LohitakshTrehan/supreme-enigma#readme"
+  "homepage": "https://github.com/LohitakshTrehan/supreme-enigma#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
