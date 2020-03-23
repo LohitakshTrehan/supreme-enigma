@@ -10,7 +10,6 @@ body {
 }
 
 .aboutme-container {
-  margin-right: 0.5rem;
   background-image: linear-gradient(90deg, #eaeaea 97%, transparent);
   border-radius: 2rem;
   padding: 2rem;
@@ -31,12 +30,18 @@ body {
   margin-left: auto;
   margin-right: auto;
   border-radius: 3rem;
+  filter: brightness(120%);
+}
+
+.separator {
+  background-image: linear-gradient(180deg, transparent, #dedede, transparent);
+  height: 100%;
+  width: 1rem;
 }
 
 .details-container {
-  margin-left: 0.5rem;
   background-image: linear-gradient(-90deg, #eaeaea 97%, transparent);
-  border-radius: 1rem;
+  border-radius: 2rem;
   padding: 2rem;
   flex: 1 1 0;
 }
