@@ -7,6 +7,7 @@ body {
   width: 100%;
   height: 100%;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .aboutme-container {
@@ -19,9 +20,9 @@ body {
 .aboutme-heading {
   margin: 1rem;
   text-align: center;
-  font-size: 4rem;
-  font-family: fantasy;
-  color: dimgrey;
+  font-size: 2rem;
+  font-family: monospace;
+  color: darkslategray;
   margin-top: 0;
 }
 
@@ -33,10 +34,46 @@ body {
   filter: brightness(120%);
 }
 
-.separator {
-  background-image: linear-gradient(180deg, transparent, #dedede, transparent);
-  height: 100%;
-  width: 1rem;
+.aboutme-name {
+  margin: 1rem;
+  text-align: center;
+  color: darkslategray;
+  font-family: monospace;
+  font-size: 3rem;
+  font-variant: all-petite-caps;
+}
+
+.aboutme-introduce {
+  border: dashed;
+  border-width: 0.2rem;
+  border-color: dimgray;
+  max-height: 30rem;
+  min-height: 15rem;
+  padding: 1rem;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  min-width: 21rem;
+}
+
+.aboutme-prompt {
+  font-weight: bold;
+  color: darkolivegreen;
+  font-size: 1.1rem;
+}
+
+.aboutme-post-prompt {
+  font-family: monospace;
+  font-size: 1.3rem;
+  letter-spacing: 0.15rem;
+  margin: 0.3rem;
+  color: saddlebrown;
+}
+
+.aboutme-terminal-container {
+  border-color: lightgray;
+  border-width: .2rem;
+  border-style: solid;
+  padding: .1rem;
 }
 
 .details-container {
