@@ -92,3 +92,69 @@ body {
   padding: 2rem;
   flex: 1 1 0;
 }
+
+.employment-heading {
+  margin: 1rem;
+  text-align: center;
+  font-size: 2rem;
+  font-family: monospace;
+  color: darkslategray;
+  margin-top: 0;
+}
+
+.employment-job-container {
+  border: dashed;
+  border-width: 0.2rem;
+  border-color: dimgray;
+  height: 12rem;
+  padding: 1rem;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  min-width: 21rem;
+}
+
+.employment-job-employer {
+  margin: 0.5rem;
+}
+
+.employment-job-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+
+.employment-job-heading-org {
+  font-size: 1.5rem;
+  font-family: monospace;
+  color: maroon;
+}
+
+.employment-job-heading-date {
+  font-family: monospace;
+  font-size: 1rem;
+  color: tomato;
+}
+
+.employment-job-detail {
+  font-family: monospace;
+  font-size: 1.3rem;
+  color: steelblue;
+}
+
+.employment-job-more-detail {
+  font-size: 1rem;
+  font-family: monospace;
+  color: darkslategray;
+  cursor: pointer;
+}
+
+.project-heading {
+  margin: 1rem;
+  text-align: center;
+  font-size: 2rem;
+  font-family: monospace;
+  color: darkslategray;
+  margin-top: 0;
+}
